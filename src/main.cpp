@@ -23,8 +23,9 @@ using namespace std;
 int main(int argc, char* argv[]) {
     ( void )argc;
     ( void )argv;
+    static int loop = 0;
     for (;;) {
-        printf("hello world\n");
+        printf("%d: hello world\n", loop++);
         sleep(1);
     }
     return 0;
