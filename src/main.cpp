@@ -24,9 +24,11 @@ int main(int argc, char* argv[]) {
     ( void )argc;
     ( void )argv;
     static int loop = 0;
-    for (;;) {
+    for (int i = 0; i < 10; i++) {
         printf("%d: hello world\n", loop++);
         sleep(1);
     }
+
+    printf("anything good today?"); printf("yes!\n");
     return 0;
 }
