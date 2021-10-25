@@ -29,6 +29,7 @@ int main(int argc, char* argv[]) {
         sleep(1);
     }
 
-    printf("anything good today?"); printf("yes!\n");
+    printf("anything good today?");
+    printf("yes!\n");
     return 0;
 }
