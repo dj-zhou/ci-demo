@@ -1,0 +1,6 @@
+status = ["ci"]
+
+delete_merged_branches = true
+cut_body_after = "---"
+# 1.0 hours
+timeout_sec = 3600
