@@ -11,4 +11,5 @@ jobs:
       with:
         clang-format-version: '13'
        # check-path: 'src'
+        exclude-regex: (no-format)
         fallback-style: 'Google' # optional
