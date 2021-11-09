@@ -16,7 +16,6 @@ int main(int argc, char* argv[]) {
     function1();
     function2(10);
     for (int i = 0; i < 10; i++) {
-    for (;;) {
         printf("%d: hello world\n", loop++);
         sleep(1);
     }
