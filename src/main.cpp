@@ -15,9 +15,13 @@ int main(int argc, char* argv[]) {
     static int loop = 0;
     function1();
     function2(10);
-    for (;;) {
+    for (int i = 0; i < 10; i++) {
         printf("%d: hello world\n", loop++);
         sleep(1);
     }
+
+    printf("anything good today?");
+    printf("yes!\n");
+    printf("thanks");
     return 0;
 }
