@@ -14,10 +14,12 @@ add_compile_options(
   -Wlogical-not-parentheses
 )
 
+include_directories(./no-format)
 # ------------------------------
 add_executable(
-  main
-  src/main.cpp
+  "main"
+  "src/main.cpp"
+  "no-format/no-format.cpp"
 )
 # target_link_libraries(
 #   main
