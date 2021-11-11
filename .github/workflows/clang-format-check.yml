@@ -9,7 +9,7 @@ jobs:
     - name: Run clang-format style check for C/C++ programs.
       uses: jidicula/clang-format-action@v4.2.0
       with:
-        clang-format-version: '13'
+        clang-format-version: '11'
        # check-path: 'src'
-        exclude-regex: (no-format)
+        exclude-regex: (no-format|some-format/hello.cpp)
         fallback-style: 'Google' # optional
