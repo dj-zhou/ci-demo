@@ -22,6 +22,6 @@ int main(int argc, char* argv[]) {
 
     printf("anything good today?");
     printf("yes!\n");
-    printf("thanks");
+    printf("thanks\n");
     return 0;
 }
